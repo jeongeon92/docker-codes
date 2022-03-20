@@ -5,8 +5,8 @@ const PORT = 8080;
 //APP 
 const app = express();
 app.get('/', (req,res) => {
-    res.send("반가워요!!!!!!!")
+    res.send("Hello World in Node.js!!")
 });
 
 app.listen(PORT);
-console.log("Server is running")
+console.log("node.js server is running")

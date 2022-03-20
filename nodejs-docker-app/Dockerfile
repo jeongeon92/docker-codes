@@ -8,5 +8,6 @@ RUN npm install
 
 COPY ./ ./
 
-CMD ["nodemon", "server.js"]
+#CMD ["nodemon", "server.js"]
+CMD ["node", "server.js"]
 
